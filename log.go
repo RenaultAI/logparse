@@ -14,7 +14,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 
 // Package logparse parses a log entry in the most common formats.
-package logparse // import "xojoc.pw/logparse"
+package logparse
 
 import (
 	"bufio"
@@ -25,7 +25,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"xojoc.pw/useragent"
+
+	"github.com/RenaultAI/useragent"
 )
 
 const timeLayout = "02/Jan/2006:15:04:05 -0700"
